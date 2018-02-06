@@ -18,7 +18,24 @@
         "id": 2
       }
     ],
-    "tokens": [],
+    "tokens": [
+      {
+        "user": 1,
+        "type": "access",
+        "value": "ihn4tR5tYdihPVCQ6pUbpDYFDzXUQtr6",
+        "expiresAt": "2018-02-06T07:02:00.817Z",
+        "createdAt": "2018-02-06T06:02:00.869Z",
+        "id": 1
+      },
+      {
+        "user": 1,
+        "type": "refresh",
+        "value": "vkOlIhI8I702cb06sgdaaFMDZqC2JiEP",
+        "expiresAt": "2018-05-07T06:02:00.884Z",
+        "createdAt": "2018-02-06T06:02:00.895Z",
+        "id": 2
+      }
+    ],
     "clients": [
       {
         "id": "8puWuJWZYls1Ylawxm6CMiYREhsGGSyw",
@@ -97,7 +114,9 @@
     "users": {
       "id": 2
     },
-    "tokens": {},
+    "tokens": {
+      "id": 2
+    },
     "clients": {}
   }
 }
