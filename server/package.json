@@ -7,19 +7,22 @@
     "bcrypt": "^0.8.7",
     "ejs": "^2.5.2",
     "eslint-config-airbnb-base": "^9.0.0",
-    "include-all": "^1.0.0",
+    "include-all": "^3.0.0",
     "moment": "^2.15.2",
     "passport": "^0.3.2",
     "passport-http": "^0.3.0",
     "passport-http-bearer": "^1.0.1",
     "rand-token": "^0.2.1",
     "rc": "1.0.1",
-    "sails": "~0.12.9",
-    "sails-disk": "~0.10.9",
-    "sails-hook-validation": "^0.4.6"
+    "sails": "~1.0.0",
+    "sails-disk": "~1.0.0",
+    "sails-hook-validation": "^0.4.6",
+    "snyk": "^1.88.0"
   },
   "scripts": {
-    "start": "babel-node app.js"
+    "start": "babel-node app.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "main": "app.js",
   "author": "Alexis Mangin",
@@ -29,5 +32,6 @@
     "babel-eslint": "^7.1.0",
     "eslint": "^3.9.1",
     "eslint-plugin-import": "^2.1.0"
-  }
+  },
+  "snyk": true
 }
